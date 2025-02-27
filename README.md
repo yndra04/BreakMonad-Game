@@ -91,4 +91,38 @@ npx hardhat run scripts/deploy.js --network monad
 ✅ Includes full frontend integration with Ethers.js
 ✅ Tested & Ready for Monad Testnet
 
+a simple "How to Play" guide
+- How to Connect Wallet (Metamask setup for Monad Testnet)
+- How to Click & Earn MON (Each click = transaction & MON reward)
+- How to Unlock NFTs (Earn NFTs at milestones)
+- How the Leaderboard Works (Ranks based on total clicks)
 
+-----------------------------------------------------------------
+📝 Rules & User Interactions – ClickBreaker
+📌 Game Rules:
+Each Click = 1 Transaction 🖱️
+
+Every time a user clicks, a blockchain transaction is executed.
+The player earns 1 MON token per click.
+NFT Rewards at Milestones 🎖️
+
+Every 10 clicks, the player receives an NFT.
+The NFT represents their progress and achievements.
+On-Chain Leaderboard 🏆
+
+Players are ranked by total clicks.
+The more clicks, the higher the leaderboard position.
+👤 User Interactions:
+✅ Sign Up & Login
+
+Users register/login using email, password, and Metamask wallet.
+✅ Clicking to Earn MON
+
+Players click a button to trigger a blockchain transaction.
+✅ Claiming Rewards
+
+MON tokens are automatically sent to the player’s wallet.
+NFTs are minted & sent at every 10-click milestone.
+✅ Checking Leaderboard
+
+Users can view the top-ranking players on an on-chain leaderboard.
