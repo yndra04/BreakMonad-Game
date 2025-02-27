@@ -1,4 +1,9 @@
+   🚀 ClickBreaker: Break Monad 🚀
+=================================================================
+A fast-paced, transaction-heavy game where every click matters! ⚡
+------------------------------------------------------------------
 📌 How to Install and Run the Game
+------------------------------------------------------------------
 
 1️⃣ Clone the Repository
 Copy the code from GitHub to your local machine:
