@@ -126,3 +126,8 @@ NFTs are minted & sent at every 10-click milestone.
 ✅ Checking Leaderboard
 
 Users can view the top-ranking players on an on-chain leaderboard.
+-----------------------------------------------------------------
+🎯 Conclusion
+📌 Contract Address: 0x7c49EF7bf7d8C7Af63C7DFB0A43b3640B8098607
+📌 RPC Endpoint: https://testnet-rpc.monad.xyz
+📌 Explorer: Monad Testnet Explorer
