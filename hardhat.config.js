@@ -7,7 +7,7 @@ module.exports = {
         monad: {
             url: "https://testnet-rpc.monad.xyz",
             chainId: 10143,
-            accounts: [process.env.PRIVATE_KEY] // Replace with your wallet's private key
+            accounts: [process.env.PRIVATE_KEY] // Private key dari wallet yang memiliki MON
         }
     }
 };
