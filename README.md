@@ -56,4 +56,39 @@ Deploy to Vercel
 vercel
 ```
 Vercel will provide a URL where the game can be played online.
+==============================================================
+
+📜 Solidity Smart Contract (With Rewards, NFT, and Leaderboard)
+🗂 Path: contracts/ClickBreaker.sol
+This smart contract:
+✅ Rewards players with MON tokens
+✅ Mints NFTs for milestone achievements
+✅ Tracks an on-chain leaderboard
+--------------------------------------------------------------
+🛠 Deployment & Integration
+📝 Hardhat Configuration
+🗂 Path: hardhat.config.js
+-------------------------------------------------------------
+📝 Deployment Script
+🗂 Path: scripts/deploy.js
+------------------------------------------------------------
+🚀 Deploy to Monad Testnet
+```
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network monad
+---
+----------------------------------------------------------
+📝 Frontend Integration (Ethers.js)
+🗂 Path: frontend/main.js
+----------------------------------------------------------
+📝 Frontend UI
+🗂 Path: frontend/index.html
+----------------------------------------------------------
+🚀 Summary
+✅ Rewards players with MON tokens per click
+✅ Mints NFTs at milestones (every 10 clicks)
+✅ Maintains an on-chain leaderboard
+✅ Includes full frontend integration with Ethers.js
+✅ Tested & Ready for Monad Testnet
+
 
