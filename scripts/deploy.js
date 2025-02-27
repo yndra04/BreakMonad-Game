@@ -1,18 +1,14 @@
 const hre = require("hardhat");
 
 async function main() {
-    const monTokenAddress = "0xYourMONTokenAddress"; // Replace with actual MON token contract address
-
     const ClickBreaker = await hre.ethers.getContractFactory("ClickBreaker");
-    const clickBreaker = await ClickBreaker.deploy(monTokenAddress);
+    const clickBreaker = await ClickBreaker.deploy();
 
     await clickBreaker.deployed();
-    console.log(`ClickBreaker deployed to: ${clickBreaker.address}`);
+    console.log("ClickBreaker deployed to:", clickBreaker.address);
 }
 
-main()
-    .then(() => process.exit(0))
-    .catch((error) => {
-        console.error(error);
-        process.exit(1);
-    });
+main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+});
